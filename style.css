@@ -33,7 +33,14 @@ section {
 
 section a {
     text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
 }
+
+section a:hover {
+    -webkit-tap-highlight-color: transparent;
+}
+
+
 
 section h1 {
     font-size: 70px;
