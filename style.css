@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+/* reset css */
+
+body {
+    background-color: white;
+    font-family: 'DM Sans', sans-serif;
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+section {
+    width: 640px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 36px;
+}
+
+section a {
+    text-decoration: none;
+}
+
+section h1 {
+    font-size: 70px;
+    color: #1E0E62;
+}
+
+
+section h3 {
+    font-size: 30px;
+    color: #1E0E62;
+}
+
+section h3:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+    filter: blur(.3px);
+    color: #52458b;
+}
+
+section p {
+    width: 70%;
+    font-size: 24px;
+    color: #1E0E62;
+    opacity: 0.4;
+    text-align: center;
+}
+
+.radial1 {
+    position: absolute;
+    margin-right: 200px;
+    width: 121px;
+    height: 121px;
+    background-color: #FF0D6A;
+    filter: blur(75px);
+    transition: 1s;
+}
+
+.radial2 {
+    position: absolute;
+    margin: auto;
+    width: 121px;
+    height: 121px;
+    background-color: #0500FF;
+    filter: blur(75px);
+    transition: 1s;
+}
+
+.radial3 {
+    position: absolute;
+    margin-left: 200px;
+    width: 121px;
+    height: 121px;
+    background-color: #00FFE0;
+    filter: blur(75px);
+    transition: 1s;
+}
+
+@media only screen and (max-width: 443px) {
+    section p {
+        font-size: 19px;
+    }
+}
