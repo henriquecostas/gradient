@@ -68,6 +68,7 @@ section p {
     height: 121px;
     background-color: #FF0D6A;
     filter: blur(75px);
+    -webkit-filter: blur(75px);
     transition: 1s;
 }
 
@@ -78,6 +79,7 @@ section p {
     height: 121px;
     background-color: #0500FF;
     filter: blur(75px);
+    -webkit-filter: blur(75px);
     transition: 1s;
 }
 
@@ -88,6 +90,7 @@ section p {
     height: 121px;
     background-color: #00FFE0;
     filter: blur(75px);
+    -webkit-filter: blur(75px);
     transition: 1s;
 }
 

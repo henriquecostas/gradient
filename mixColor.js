@@ -30,3 +30,9 @@ randomize.addEventListener("mouseup", mouseup);
 randomize.addEventListener("click", whilemousedown);
 //Also clear the interval when user leaves the window with mouse
 randomize.addEventListener("mouseout", mouseup);
+
+
+if (screen.width <  756) {
+    let h3Tag = document.querySelector('section h3');
+    h3Tag.textContent = 'click me';
+}
